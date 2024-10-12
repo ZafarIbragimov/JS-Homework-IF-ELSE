@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketbol Ochkolarini Hisoblash</title>
+    <link rel="stylesheet" href="basketbol.css">
+</head>
+<body>
+    
+    <div class="container">
+        <a style="background-color: blue; text-decoration: none;color: white; padding: 7px; border-radius: 19px;"  href="./index.html">Back to home👀</a>
+
+        <h2>Basketbol Ochkolarini Hisoblash</h2>
+    
+        <label for="uchOchko">3 ochkoli gollar soni:</label>
+        <input type="number" id="uchOchko" placeholder="0">
+        <br><br>
+    
+        <label for="ikkiOchko">2 ochkoli gollar soni:</label>
+        <input type="number" id="ikkiOchko" placeholder="0">
+        <br><br>
+    
+        <button onclick="hisoblaOchko()">Ochko Hisoblash</button>
+    
+        <h3 id="natija">Yakuniy ochko: 0</h3>
+    </div>
+
+    <div id="allWrapper">
+        <div id="basket"><img src="http://svgur.com/i/4N.svg" alt="Basketbol Savati" /></div>
+        <div id="ballWrapper">
+            <div id="ball"><span id="ballshad"></span></div>
+            <div id="ballShadow"></div>
+        </div>
+    </div>
+
+    <script src="basketbol.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xarajatlarni Hisoblash</title>
+    <link rel="stylesheet" href="harajat.css">
+</head>
+<body>
+    <div class="form-container">
+        <a style="background-color: blue; text-decoration: none;color: white; padding: 7px; border-radius: 19px;"  href="./index.html">Back to home👀</a>
+
+        <h2>Xarajatlarni Hisoblash</h2>
+
+        <label for="mahsulotNomi">Mahsulot nomini kiriting:</label>
+        <input type="text" id="mahsulotNomi" placeholder="Masalan, qalam">
+        
+        <label for="narxi">Mahsulot narxini kiriting:</label>
+        <input type="number" id="narxi" step="0.01" placeholder="Masalan, 0.30">
+        
+        <label for="miqdor">Mahsulot miqdorini kiriting:</label>
+        <input type="number" id="miqdor" placeholder="Masalan, 15">
+
+        <button onclick="hisobla()">Xarajatlarni Hisoblash</button>
+
+        <h3>Natijalar:</h3>
+        <pre id="natijam"></pre>
+    </div>
+
+    <script src="harajat.js"></script>
+</body>
+</html>

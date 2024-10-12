@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtihon Hisoblash</title>
+    <link rel="stylesheet" href="fan.css">
+</head>
+<body>
+ 
+<div class="form-container">
+        <a style="background-color: blue; text-decoration: none;color: white; padding: 7px; border-radius: 19px;"  href="./index.html">Back to home👀</a>
+        <h2>Imtihon Natijalari Hisoblash</h2>
+
+        <label for="fanNomi">Fan nomini kiriting:</label>
+        <input type="text" id="fanNomi" placeholder="Masalan, Fizika">
+        
+        <label for="otganlar">O'tganlar soni:</label>
+        <input type="number" id="otganlar" placeholder="Masalan, 12">
+        
+        <label for="muvaffaqiyatsizliklar">Muvaffaqiyatsizliklar soni:</label>
+        <input type="number" id="muvaffaqiyatsizliklar" placeholder="Masalan, 2">
+        
+        <label for="kelmaganlar">Kelmaganlar soni:</label>
+        <input type="number" id="kelmaganlar" placeholder="Masalan, 2">
+
+        <button onclick="hisobla()">Hisoblash</button>
+
+        <h3>Natijalar:</h3>
+        <pre id="natijam"></pre>
+    </div>
+
+    <script src="fan.js"></script>
+</body>
+</html>
